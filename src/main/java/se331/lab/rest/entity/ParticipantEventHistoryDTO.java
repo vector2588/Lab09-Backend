@@ -5,13 +5,11 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ParticipantOwnEventsDTO {
+public class ParticipantEventHistoryDTO {
     Long id;
     String category;
     String title;

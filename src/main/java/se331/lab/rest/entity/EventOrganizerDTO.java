@@ -12,5 +12,4 @@ import lombok.NoArgsConstructor;
 public class EventOrganizerDTO {
     Long id;
     String name;
-
 }
